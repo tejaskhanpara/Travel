@@ -1,0 +1,337 @@
+/* ----------------Navbar----------------- */
+
+.heading
+{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+    color:black;
+    margin-top: 25px;
+}
+.logo
+{
+    font-weight: bold;
+    font-size: 30px;
+    color: #4FBDBA;
+    text-decoration: none;
+}
+/* ----------------Adventure----------------- */
+
+.box
+{
+    text-align: center;
+    padding: 1rem;
+}
+.box img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+.box h3
+{
+    font-size: 20px;
+    color: green;
+}
+.box p 
+{
+    font-size: 1.4rem;
+    color: black;
+    padding: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* ----------------About----------------- */
+
+
+.about
+{
+    /* display: flex; */
+    /* background-color: grey; */
+    align-items: center;
+    margin-top: 25px;
+    background: rgb(236, 233, 233);
+    
+
+}
+.pic
+{
+    flex: 1 1 ;
+    padding-right: 70px;
+    padding-bottom: 70px;
+    /* height: 400px;
+    width: 550px;
+    margin-top: 40px; */
+}
+.pic img
+{
+    /* width: 100%; */
+    /* height: 200px; */
+    margin: 40px 0;
+    max-width: 550px;
+    border-radius: 10px;
+    box-shadow: 64px 64px 0 rgba(0, 0, 0, .1);
+}
+.content
+{
+    flex: 1 1 420px;
+    justify-content: left;
+    margin: 25px 0;
+}
+.content h3
+{
+    font-size: 40px;
+    color: green;
+    /* margin-top: 15px; */
+}
+.content p
+{
+    font-size: 20px;
+    color: black;
+    padding: 16px 0;
+    line-height: 1.5;
+}
+.button.btn.btn-success {
+    text-align: center;
+    height: 20px;
+}
+
+/* ----------------Service----------------- */
+.service
+{
+    background:  rgb(245, 244, 244);
+}
+
+/* .boxs
+{
+    text-align: center;
+    padding:20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: white;
+}
+.boxs img
+{
+    height: 100px;
+    margin-bottom: 10px;
+}
+.boxs h3
+{
+    font-size: 20px;
+    color: green;
+}
+.boxs p
+{
+    font-size: 15px;
+    color: black;
+    padding: 10px 0;
+    line-height: 2;
+} */
+.service h1
+{
+    text-align: center;
+    padding: 23px 0;
+}
+.card
+{
+    border: 2px solid rgb(46, 45, 45);
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+    
+}
+.allboxs .card:hover
+{
+    background: green;
+    color: white;
+}
+.allboxs .card:hover h3
+{
+    color: white;
+    font-weight: 700;
+}
+.allboxs .card:hover button
+{
+    background: white;
+    color: green;
+    font-weight: 600;
+}
+
+.card h3
+{
+    color: rgb(43, 92, 43)
+    ;
+}
+.card img
+{
+    height: 105px;
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+.card button
+{
+    margin: 20px;
+    background: rgb(31, 65, 31) ;
+}
+.card button:hover
+{
+    background: rgb(46, 66, 46);
+    color: white    ;
+}
+/* ----------------Review----------------- */
+.review h1
+{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.all
+{
+    /* border: 2px solid black; */
+    margin: 0 5px;
+}
+.all p
+{
+    padding: 15px 0;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.cons
+{
+    padding-top: 25px;
+}
+.concepts
+{
+    display: inline-flex;
+    padding-bottom: 25px;
+}
+.concepts img
+{
+    border-radius: 50%;
+    height: 100px;
+    padding-left: 30px;
+
+    /* -------padding left and border-redius 50% thi round triengale thayu----- */
+}
+.concepts h3
+{
+    color: green;
+    padding-left: 43px;
+    padding-top: 13px;
+    
+}
+.concepts span
+{
+    color:black;
+    padding-left: 43px;
+}
+
+/* ----------------Subscribe----------------- */
+.subscribe
+{
+    background: rgb(231, 231, 231);
+}
+h6
+{
+    padding: 15px 0;
+}
+.subscribecontect
+{
+    max-width: 70rem;
+    margin:1rem auto;
+    text-align: center;
+}
+.subscribecontect p
+{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: black;
+}
+.subscribecontect form
+{
+    display: inline-flex;
+    background: white;
+    margin-top: 20px;
+    border-radius: 5rem;
+    border: 1px solid black;
+    padding: 0.7rem;
+}
+.subscribecontect form input#formBasicEmail {
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 15px;
+    color: black;
+    padding: 0 13px;
+    
+    
+}
+
+.subscribecontect button {
+    border-radius: 5rem;
+}
+
+/* ----------------Client----------------- */
+.clients
+{
+
+    text-align: center;
+}
+.client img
+{
+    padding: 10px 0px;
+    margin: 10px 0px;
+
+}
+
+/* ----------------Footer----------------- */
+.footer
+{
+    background: url('./image/footer-bg.jpg') no-repeat;   
+    background-size:cover ;
+    background-attachment: fixed;
+    background-position: center;
+}
+.footer h3
+{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+    color: #54ca0a;
+}
+.footer a
+{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    /* transition: 1 s; */
+    
+    /* display: block; */
+}
+
+a:hover {
+    color: #54ca0a;
+    font-weight: 700;
+}
+.designer
+{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+span
+{
+    color: #54ca0a;
+    
+}
